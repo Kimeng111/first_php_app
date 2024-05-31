@@ -1,8 +1,8 @@
 FROM php:8.3-apache
 
-WORKDIR /var/www/html
+WORKDIR /var/www/php
 
-COPY . /var/www/html
+COPY . /var/www/php
 
 RUN echo "ServerName localhost"  >> /etc/apache2/apache2.conf
 
