@@ -15,7 +15,7 @@ if(isset($_POST['title']) && $_POST['description']) {
 ?>
 
     <!-- Header section  -->
-<?php include("header.php") ?>
+<?php include ("header.php") ?>
 
     <!-- Main section  -->
     <div class="container">
