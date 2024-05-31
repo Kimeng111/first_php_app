@@ -41,7 +41,7 @@ if(isset($_POST['title']) && $_POST['description']) {
             <textarea type="text" class="form-control" rows=5 id="description" name="description"> </textarea>
           </div>
          
-          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="submit" class="btn btn-default">Submit </button>
         </form>
         </div>
       </div>
